@@ -41,23 +41,46 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
-    function loop() {
-    
-      $( ".effect" ).animate({
+    function animLoop1() {
+      $( ".anim1" ).animate({
+        // BRIGHTER COLOR:
+        // color: "#4cdbc1"
+        color: "#44af9c"
+      }, 2500, 'linear', function(){
+        animLoop1();
+      });
+      $( ".anim1" ).animate({
+        color: "#0e2c2e"
+      }, 2500 );
+    }
+    animLoop1();
+
+
+    function animLoop2() {
+      $( ".anim2" ).animate({
+        // color: "#4cdbc1"
+        color: "#44af9c"
+      }, 1500, 'linear', function(){
+        animLoop2();
+      });
+      $( ".anim2" ).animate({
         color: "#0e2c2e"
       }, 1500 );
-      $( ".effect" ).animate({
-        // color: "#4cf3ff"
-        // color: "#4cffde"
-        color: "#4cdbc1"
-      }, 1500, 'linear', function(){
-        loop();
-      });
-      // $( ".effect" ).animate({
-      //   color: "#0e2c2e"
-      // }, 1000 );
     }
-    loop();
+    animLoop2();
+
+// <!-- 
+//     function animLoop3() {
+//       $( ".anim3" ).animate({
+//         color: "#0e2c2e"
+//       }, 1500 );
+//       $( ".anim3" ).animate({
+//         color: "#4cdbc1"
+//       }, 1500, 'linear', function(){
+//         animLoop3();
+//       });
+//     }
+//     animLoop3(); -->
 
   } );
   </script>
