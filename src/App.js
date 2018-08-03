@@ -3,8 +3,9 @@
 
 
 import React, { Component } from 'react';
-// import './App.css';
-import './kelp.css';
+import './App.css';
+// import './App.scss';
+// import './kelp.css';
 // import 'react-count-animation/dist/count.min.css';
 import AnimationCount from 'react-count-animation';
 
@@ -161,6 +162,24 @@ class App extends Component {
   render() {
     return (
       <div className="">
+
+        <div className="cardContainer">
+            <div className="card bg-white">
+                <h1>KELP</h1>
+                <p>Kelp is a free, customizable trading bot for the Stellar universal marketplace. The software is open-source and can trade any asset. </p>
+                <p>Use it to:</p>
+                <ul>
+                    <li>Create liquidity</li>
+                    <li>Set a spot price</li>
+                    <li>Make spreads and make markets</li>
+                    <li>Price and trade your own stable coins</li>
+                    <li>Mimic orders from other exchanges</li>
+                </ul>
+                <p className='download'>Download</p>
+                <p className='github'>GitHub README</p>
+                <p className='getintouch'>Get in touch</p>
+            </div>
+        </div>
 
        <div className="creature first">
           <div className="seg"><AnimationCount {...settings1}/></div>

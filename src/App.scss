@@ -1,0 +1,224 @@
+@import "../node_modules/tachyons-sass/tachyons.scss";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,600,700');
+
+//   START DEFAULTS
+* {
+    box-sizing: border-box;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  html {
+    //Enables declaring font sizes 'as if' in px, but in rem. ie: For 16px, declare 1.6rem
+    font-size: 62.5%;
+  }
+  body {
+    // font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+    // font: 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    // font-size:16px;
+    font-size:1.6rem;
+    line-height: 1.7;
+    color: #444;
+    // transition: all .4s .3s ease-in;
+  }
+  
+  body,html{
+      min-height: 100vh;
+      overflow: hidden;
+  }
+
+
+//   END DEFAULTS
+
+
+
+html, body {
+    height: 100%;
+}
+body{
+    background: linear-gradient(0deg, rgba(2,39,39,1) 0%, rgba(9,89,78,1) 25%, rgba(29,131,135,1) 75%, rgba(96,176,128,1) 100%);
+}
+
+.cardContainer{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: inline-block;
+    width:570px;
+    min-height:400px;
+    z-index: 10;
+    padding: 45px;
+    color:#00493f;
+    margin:50px;
+    
+    h1{ 
+        font-size: 2.9rem;
+        font-weight: 400;
+        margin: 0;
+        line-height: .8
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+    ul li{
+        font-size: 1.2rem;
+        line-height: 1.6
+    }
+    .download{
+        display:inline-block;
+        border: 1px solid black;
+        padding:6px 16px;
+        margin-bottom: 10px;
+        transition: all .2s ease;
+    }
+    .github{
+        text-decoration: underline;
+    }
+    .getintouch{
+        margin-bottom: 0;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .card{
+        margin:10px;
+    }
+}
+
+.download:hover{
+    transform: translateY(-4px);
+    background: #498e92;
+    color:white;
+}
+
+.seg {
+    color: #0e2c2e;
+    opacity: .6;
+    font-size:1.1rem;
+    height: 18px;
+    width: 18px;
+    transform-origin: bottom;
+    animation: sway 3s infinite ease-in-out alternate;
+}
+
+@keyframes sway {
+	0% {
+		transform: rotate(-20deg) translateX(-5px);
+	}
+	50% {
+		transform: rotate(20deg) translateX(5px)
+	}
+}
+
+@for $i from 1 through 60 {
+	.seg:nth-child(#{$i}){
+		animation-delay: $i * -.1s;
+	}
+}
+
+
+.first{
+ position: fixed;
+ bottom: -10px;
+ left:10px;
+}
+
+.second{
+  position: fixed;
+  left:90px;
+  bottom: -10px;
+}
+
+.third{
+    position: fixed;
+    left:180px;
+    bottom: -10px;
+}
+
+.fourth{
+    position: fixed;
+    left:270px;
+    bottom: -10px;
+}
+
+.fifth{
+    position: fixed;
+    left:360px;
+    bottom: -10px;
+}
+
+.sixth{
+    position: fixed;
+    left:450px;
+    bottom: -10px;
+}
+
+.seventh{
+    position: fixed;
+    left:540px;
+    bottom: -10px;
+}
+
+.eighth{
+    position: fixed;
+    left:630px;
+    bottom: -10px;
+}
+
+.ninth{
+    position: fixed;
+    left:720px;
+    bottom: 0px;
+}
+
+.tenth{
+    position: fixed;
+    left:810px;
+    bottom: 0px;
+}
+
+.eleventh{
+    position: fixed;
+    left:900px;
+    bottom: 0px;
+}
+
+.twelfth{
+    position: fixed;
+    left:990px;
+    bottom: 0px;
+}
+
+.thirteenth{
+    position: fixed;
+    left:1080px;
+    bottom: 0px;
+}
+
+.fourteenth{
+    position: fixed;
+    left:1170px;
+    bottom: 0px;
+}
+
+.fifteenth{
+    position: fixed;
+    left:1260px;
+    bottom: 0px;
+}
+
+.sixteenth{
+    position: fixed;
+    left:1350px;
+    bottom: 0px;
+}
