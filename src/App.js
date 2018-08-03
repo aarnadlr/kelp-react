@@ -112,9 +112,6 @@ const settings6 = {
 const settings7 = {
   start: randomNumber2,
   count: randomNumber4,
-  //Milliseconds: 1 min -> 60,000
-  //Milliseconds: 3 mins -> 180,000
-  //Milliseconds: 5 mins -> 300,000
   duration: 180000,
   decimals: 2,
   useGroup: true,
@@ -123,9 +120,6 @@ const settings7 = {
 const settings8 = {
   start: randomNumber3,
   count: randomNumber4,
-  //Milliseconds: 1 min -> 60,000
-  //Milliseconds: 3 mins -> 180,000
-  //Milliseconds: 5 mins -> 300,000
   duration: 180000,
   decimals: 2,
   useGroup: true,
@@ -159,28 +153,28 @@ class App extends Component {
         </div>
 
        <div className="creature first">
-          <div className="seg"><AnimationCount {...settings1}/></div>
+          <div className="white-10 seg"><AnimationCount {...settings1}/></div>
           <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
+          <div className="white-40 seg"><AnimationCount {...settings2}/></div>
           <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="white-80 seg"><AnimationCount {...settings8}/></div>
 
           <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
+          <div className="lighten90 seg"><AnimationCount {...settings}/></div>
+          <div className="lighten90 seg"><AnimationCount {...settings7}/></div>
+          <div className="lighten90 seg"><AnimationCount {...settings3}/></div>
           <div className="seg"><AnimationCount {...settings6}/></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
+          <div className="effect seg"><AnimationCount {...settings1}/></div>
+          <div className="effect seg"><AnimationCount {...settings0}/></div>
+          <div className="effect seg"><AnimationCount {...settings2}/></div>
           <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="yellow seg"><AnimationCount {...settings8}/></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
+          <div className="seg colorAnim"><AnimationCount {...settings5}/></div>
+          <div className="seg colorAnim"><AnimationCount {...settings}/></div>
+          <div className="seg colorAnim"><AnimationCount {...settings7}/></div>
+          <div className="seg colorAnim"><AnimationCount {...settings3}/></div>
           <div className="seg"><AnimationCount {...settings6}/></div>
 
           <div className="seg"><AnimationCount {...settings1}/></div>

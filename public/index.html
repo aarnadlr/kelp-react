@@ -19,6 +19,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    
     <title>React App</title>
   </head>
   <body>
@@ -36,5 +37,29 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    function loop() {
+    
+      $( ".effect" ).animate({
+        color: "#0e2c2e"
+      }, 1500 );
+      $( ".effect" ).animate({
+        // color: "#4cf3ff"
+        // color: "#4cffde"
+        color: "#4cdbc1"
+      }, 1500, 'linear', function(){
+        loop();
+      });
+      // $( ".effect" ).animate({
+      //   color: "#0e2c2e"
+      // }, 1000 );
+    }
+    loop();
+
+  } );
+  </script>
   </body>
 </html>

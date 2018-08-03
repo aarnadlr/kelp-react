@@ -1,4 +1,4 @@
-@import "../node_modules/tachyons-sass/tachyons.scss";
+// @import "../node_modules/tachyons-sass/tachyons.scss";
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,600,700');
 
 //   START DEFAULTS
@@ -6,39 +6,29 @@
     box-sizing: border-box;
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-  }
-  html {
-    //Enables declaring font sizes 'as if' in px, but in rem. ie: For 16px, declare 1.6rem
-    font-size: 62.5%;
-  }
-  body {
-    // font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
-    // font: 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+}
+html {
+//Enables declaring font sizes as if in px, but in rem. ie: For 16px, declare 1.6rem
+font-size: 62.5%;
+}
+body {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 400;
-    // font-size:16px;
     font-size:1.6rem;
     line-height: 1.7;
-    color: #444;
-    // transition: all .4s .3s ease-in;
-  }
-  
-  body,html{
-      min-height: 100vh;
-      overflow: hidden;
-  }
+    background: linear-gradient(0deg, rgba(2,39,39,1) 0%, rgba(9,89,78,1) 25%, rgba(29,131,135,1) 75%, rgba(96,176,128,1) 100%);
+}
+body,html{
+    min-height: 100vh;
+    overflow: hidden;
+    height: 100%;
+}
 
-
+//   END DEFAULTS
 //   END DEFAULTS
 
 
 
-html, body {
-    height: 100%;
-}
-body{
-    background: linear-gradient(0deg, rgba(2,39,39,1) 0%, rgba(9,89,78,1) 25%, rgba(29,131,135,1) 75%, rgba(96,176,128,1) 100%);
-}
 
 .cardContainer{
     position:relative;
@@ -49,7 +39,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .card{
     display: inline-block;
     width:570px;
@@ -102,6 +91,7 @@ body{
 }
 
 .seg {
+    // COLOR OF KELP STRANDS:
     color: #0e2c2e;
     opacity: .6;
     font-size:1.1rem;
@@ -222,3 +212,111 @@ body{
     left:1650px;
     bottom: 0px;
 }
+
+// DOES NOT WORK
+// .lighten50{
+//     filter: brightness(150%);
+// }
+// .lighten90{
+//     filter: brightness(190%);
+// }
+
+// DOES NOT WORK
+// .rgba02{
+//     color: rgba(255, 255, 255, .2)
+// }
+// .rgba05{
+//     color: rgba(255, 255, 255, .5)
+// }
+// .rgba1{
+//     color: rgba(255, 255, 255, 1)
+// }
+
+
+
+// .colorAnim{
+//     // animation: colorchange 19s;
+//     -webkit-animation: colorchange 2s;
+// }
+
+// @keyframes colorchange{
+//     0%   {color: red;}
+//     100% {color: white;}
+// }
+
+//Safari and Chrome - necessary duplicate
+// @-webkit-keyframes colorchange {
+//     0%   {color: red;}
+
+//     100% {color: yellow;}
+// }
+
+
+// TACHYONS:
+// TACHYONS:
+// TACHYONS:
+.o-100 { opacity: 1; }
+.o-90 { opacity: .9; }
+.o-80 { opacity: .8; }
+.o-70 { opacity: .7; }
+.o-60 { opacity: .6; }
+.o-50 { opacity: .5; }
+.o-40 { opacity: .4; }
+.o-30 { opacity: .3; }
+.o-20 { opacity: .2; }
+.o-10 { opacity: .1; }
+.o-05 { opacity: .05; }
+.o-025 { opacity: .025; }
+.o-0 { opacity: 0; }
+
+.bg-black { background-color: #000; }
+.bg-near-black { background-color: #111; }
+.bg-dark-gray { background-color: #333; }
+.bg-mid-gray { background-color: #555; }
+.bg-gray { background-color: #777; }
+.bg-silver { background-color: #999; }
+.bg-light-silver { background-color: #aaa; }
+.bg-moon-gray { background-color: #ccc; }
+.bg-light-gray { background-color: #eee; }
+.bg-near-white { background-color: #f4f4f4; }
+.bg-white { background-color: #fff; }
+.bg-transparent { background-color: transparent; }
+
+.black { color: #000; }
+.near-black { color: #111; }
+.dark-gray { color: #333; }
+.mid-gray { color: #555; }
+.gray { color: #777; }
+.silver { color: #999; }
+.light-silver { color: #aaa; }
+.moon-gray { color: #ccc; }
+.light-gray { color: #eee; }
+.near-white { color: #f4f4f4; }
+.white { color: #fff; }
+.dark-red { color: #e7040f; }
+.red { color: #ff4136; }
+.light-red { color: #ff725c; }
+.orange { color: #ff6300; }
+.gold { color: #ffb700; }
+.yellow { color: #ffd700; }
+
+/* Text colors */
+.black-90 { color: rgba( 0, 0, 0, .9 ); }
+.black-80 { color: rgba( 0, 0, 0, .8 ); }
+.black-70 { color: rgba( 0, 0, 0, .7 ); }
+.black-60 { color: rgba( 0, 0, 0, .6 ); }
+.black-50 { color: rgba( 0, 0, 0, .5 ); }
+.black-40 { color: rgba( 0, 0, 0, .4 ); }
+.black-30 { color: rgba( 0, 0, 0, .3 ); }
+.black-20 { color: rgba( 0, 0, 0, .2 ); }
+.black-10 { color: rgba( 0, 0, 0, .1 ); }
+.black-05 { color: rgba( 0, 0, 0, .05 ); }
+.white-90 { color: rgba( 255, 255, 255, .9 ); }
+.white-80 { color: rgba( 255, 255, 255, .8 ); }
+.white-70 { color: rgba( 255, 255, 255, .7 ); }
+.white-60 { color: rgba( 255, 255, 255, .6 ); }
+.white-50 { color: rgba( 255, 255, 255, .5 ); }
+.white-40 { color: rgba( 255, 255, 255, .4 ); }
+.white-30 { color: rgba( 255, 255, 255, .3 ); }
+.white-20 { color: rgba( 255, 255, 255, .2 ); }
+.white-10 { color: rgba( 255, 255, 255, .1 ); }
