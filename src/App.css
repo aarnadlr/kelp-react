@@ -11,8 +11,7 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.7;
-  background: linear-gradient(0deg, #022727 0%, #09594e 25%, #1d8387 75%, #60b080 100%); }
+  line-height: 1.7; }
 
 body, html {
   min-height: 100vh;
@@ -334,41 +333,8 @@ body, html {
 .o-0 {
   opacity: 0; }
 
-.bg-black {
-  background-color: #000; }
-
-.bg-near-black {
-  background-color: #111; }
-
-.bg-dark-gray {
-  background-color: #333; }
-
-.bg-mid-gray {
-  background-color: #555; }
-
-.bg-gray {
-  background-color: #777; }
-
-.bg-silver {
-  background-color: #999; }
-
-.bg-light-silver {
-  background-color: #aaa; }
-
-.bg-moon-gray {
-  background-color: #ccc; }
-
-.bg-light-gray {
-  background-color: #eee; }
-
-.bg-near-white {
-  background-color: #f4f4f4; }
-
 .bg-white {
   background-color: #fff; }
-
-.bg-transparent {
-  background-color: transparent; }
 
 .black {
   color: #000; }

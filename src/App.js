@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import AnimationCount from 'react-count-animation';
+import Background from './kelp-bcg.jpg';
+
+const styles = {
+  background: `url(${Background})`,
+  backgroundSize: 'cover',
+  // maxWidth:'100%',
+  // width:'100%',
+  // height: '100%',
+  // overflow: 'hidden',
+}
 
 // NUM with 1 PLACES:
   var minNumber0 = 1;
@@ -122,13 +132,12 @@ const settings8 = {
 
 
 
-
 class App extends Component {
 
 
   render() {
     return (
-      <div className="">
+      <div style={styles} className="">
 
         <div className="cardContainer">
             <div className="card bg-white">
