@@ -3,54 +3,55 @@ import './App.css';
 import AnimationCount from 'react-count-animation';
 import {settings, settings0, settings1, settings2, settings3, settings4, settings5, settings6, settings7, settings8} from './randomNum'
 import styles from './styles';
-import $ from 'jquery';
+// import $ from 'jquery';
 // import 'jquery-ui';
 import '../node_modules/jquery-ui/ui/effect'
 
 class App extends Component {
 
-  componentDidMount(){
+  // componentDidMount(){
 
-    $( function() {
-      // anim1 = BRIGHTER AND SLOWER
-              // MORE OF THESE
-      function animLoop1() {
-        $( ".anim1" ).animate({
-          // BRIGHTER COLOR:
-          color: "#4cdbc1"
-          // color: "#44af9c"
-        }, 2500, 'linear', function(){
-          animLoop1();
-        });
-        $( ".anim1" ).animate({
-          color: "#0e2c2e"
-        }, 2500 );
-      }
-      animLoop1();
+  //   $( function() {
+  //     // anim1 = BRIGHTER AND SLOWER
+  //             // MORE OF THESE
+  //     function animLoop1() {
+  //       $( ".anim1" ).animate({
+  //         // BRIGHTER COLOR:
+  //         color: "#4cdbc1"
+  //         // color: "#44af9c"
+  //       }, 2500, 'linear', function(){
+  //         animLoop1();
+  //       });
+  //       $( ".anim1" ).animate({
+  //         color: "#0e2c2e"
+  //       }, 2500 );
+  //     }
+  //     animLoop1();
   
-      // anim2 = DIMMER AND FASTER
-              // FEWER OF THESE
-      function animLoop2() {
-        $( ".anim2" ).animate({
-          // color: "#4cdbc1"
-          color: "#44af9c"
-        }, 1500, 'linear', function(){
-          animLoop2();
-        });
-        $( ".anim2" ).animate({
-          color: "#0e2c2e"
-        }, 1500 );
-      }
-      animLoop2();
+  //     // anim2 = DIMMER AND FASTER
+  //             // FEWER OF THESE
+  //     function animLoop2() {
+  //       $( ".anim2" ).animate({
+  //         // color: "#4cdbc1"
+  //         color: "#44af9c"
+  //       }, 1500, 'linear', function(){
+  //         animLoop2();
+  //       });
+  //       $( ".anim2" ).animate({
+  //         color: "#0e2c2e"
+  //       }, 1500 );
+  //     }
+  //     animLoop2();
   
-    } );
-  }
+  //   } );
+  // }
+
   render() {
     return (
       <div style={styles} className="">
 
         <div className="cardContainer">
-            <div className="card bg-white">
+            {/* <div className="card bg-white">
                 <h1>KELP</h1>
                 <p>Kelp is a free, customizable trading bot for the Stellar universal marketplace. The software is open-source and can trade any asset. </p>
                 <p>Use it to:</p>
@@ -64,10 +65,10 @@ class App extends Component {
                 <p className='download'>Download</p>
                 <p className='github'>GitHub README</p>
                 <p className='getintouch'>Get in touch</p>
-            </div>
+            </div> */}
         </div>
 
-       <div className="creature first">
+       <div className="strand first">
           <div className="anim1 seg"><AnimationCount {...settings1}/></div>
           <div className="      seg"><AnimationCount {...settings0}/></div>
           <div className="anim1 seg"><AnimationCount {...settings2}/></div>
@@ -113,7 +114,7 @@ class App extends Component {
           <div className="seg"><AnimationCount {...settings7}/></div>
         </div>
 
-        <div className="creature second">
+        <div className="strand second">
           <div className="seg"><AnimationCount {...settings0}/></div>
           <div className="anim1 seg"><AnimationCount {...settings2}/></div>
           <div className="seg"><AnimationCount {...settings4}/></div>
@@ -157,7 +158,7 @@ class App extends Component {
           {/* <div className="seg"><AnimationCount {...settings6}/></div> */}
         </div>
 
-        <div className="creature third">
+        <div className="strand third">
 
           <div className="anim1 seg"><AnimationCount {...settings2}/></div>
           <div className="seg"><AnimationCount {...settings4}/></div>
@@ -210,7 +211,7 @@ class App extends Component {
           <div className="seg"><AnimationCount {...settings5}/></div>
         </div>
 
-        <div className="creature fourth">
+        <div className="strand fourth">
           <div className="anim1 seg"><AnimationCount {...settings1}/></div>
           <div className="seg"><AnimationCount {...settings0}/></div>
           <div className="anim2 seg"><AnimationCount {...settings2}/></div>
@@ -260,7 +261,7 @@ class App extends Component {
           {/* <div className="seg"><AnimationCount {...settings6}/></div> */}
         </div>
 
-        <div className="creature fifth">
+        <div className="strand fifth">
           <div className="anim1 seg"><AnimationCount {...settings1}/></div>
           <div className="anim2 seg"><AnimationCount {...settings0}/></div>
           <div className="seg"><AnimationCount {...settings2}/></div>
@@ -296,7 +297,7 @@ class App extends Component {
           <div className="seg"><AnimationCount {...settings7}/></div>
         </div>
 
-        <div className="creature sixth">
+        <div className="strand sixth">
           <div className="anim1 seg"><AnimationCount {...settings3}/></div>
           <div className="seg"><AnimationCount {...settings1}/></div>
           <div className="anim1 seg"><AnimationCount {...settings0}/></div>
@@ -347,7 +348,7 @@ class App extends Component {
           {/* <div className="seg"><AnimationCount {...settings8}/></div> */}
         </div>
 
-        <div className="creature seventh">
+        <div className="strand seventh">
           <div className="anim1 seg"><AnimationCount {...settings5}/></div>
           <div className="anim1 seg"><AnimationCount {...settings1}/></div>
           <div className="seg"><AnimationCount {...settings0}/></div>
@@ -395,7 +396,7 @@ class App extends Component {
           {/* <div className="seg"><AnimationCount {...settings6}/></div> */}
         </div>
 
-        <div className="creature eighth">
+        <div className="strand eighth">
           <div className="anim1 seg"><AnimationCount {...settings4}/></div>
           <div className="seg"><AnimationCount {...settings8}/></div>
           <div className="anim1 seg"><AnimationCount {...settings1}/></div>
@@ -447,7 +448,7 @@ class App extends Component {
 
 
 
-<div className="creature ninth">
+<div className="strand ninth">
 
   <div className="anim1 seg"><AnimationCount {...settings2}/></div>
   <div className="seg"><AnimationCount {...settings4}/></div>
@@ -500,7 +501,7 @@ class App extends Component {
   <div className="seg"><AnimationCount {...settings5}/></div>
 </div>
 
-<div className="creature tenth">
+<div className="strand tenth">
   <div className="anim1 seg"><AnimationCount {...settings1}/></div>
   <div className="seg"><AnimationCount {...settings0}/></div>
   <div className="anim2 seg"><AnimationCount {...settings2}/></div>
