@@ -27,65 +27,6 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    // anim1 = BRIGHTER AND SLOWER
-            // MORE OF THESE
-    function animLoop1() {
-      $( ".anim1" ).animate({
-        // BRIGHTER COLOR:
-        color: "#4cdbc1"
-        // color: "#44af9c"
-      }, 2500, 'linear', function(){
-        animLoop1();
-      });
-      $( ".anim1" ).animate({
-        color: "#0e2c2e"
-      }, 2500 );
-    }
-    animLoop1();
-
-    // anim2 = DIMMER AND FASTER
-            // FEWER OF THESE
-    function animLoop2() {
-      $( ".anim2" ).animate({
-        // color: "#4cdbc1"
-        color: "#44af9c"
-      }, 1500, 'linear', function(){
-        animLoop2();
-      });
-      $( ".anim2" ).animate({
-        color: "#0e2c2e"
-      }, 1500 );
-    }
-    animLoop2();
-
-// <!-- 
-//     function animLoop3() {
-//       $( ".anim3" ).animate({
-//         color: "#0e2c2e"
-//       }, 1500 );
-//       $( ".anim3" ).animate({
-//         color: "#4cdbc1"
-//       }, 1500, 'linear', function(){
-//         animLoop3();
-//       });
-//     }
-//     animLoop3(); -->
-
-  } );
-  </script>
+   
   </body>
 </html>

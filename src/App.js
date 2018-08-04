@@ -3,9 +3,48 @@ import './App.css';
 import AnimationCount from 'react-count-animation';
 import {settings, settings0, settings1, settings2, settings3, settings4, settings5, settings6, settings7, settings8} from './randomNum'
 import styles from './styles';
-
+import $ from 'jquery';
+// import 'jquery-ui';
+import '../node_modules/jquery-ui/ui/effect'
 
 class App extends Component {
+
+  componentDidMount(){
+
+    $( function() {
+      // anim1 = BRIGHTER AND SLOWER
+              // MORE OF THESE
+      function animLoop1() {
+        $( ".anim1" ).animate({
+          // BRIGHTER COLOR:
+          color: "#4cdbc1"
+          // color: "#44af9c"
+        }, 2500, 'linear', function(){
+          animLoop1();
+        });
+        $( ".anim1" ).animate({
+          color: "#0e2c2e"
+        }, 2500 );
+      }
+      animLoop1();
+  
+      // anim2 = DIMMER AND FASTER
+              // FEWER OF THESE
+      function animLoop2() {
+        $( ".anim2" ).animate({
+          // color: "#4cdbc1"
+          color: "#44af9c"
+        }, 1500, 'linear', function(){
+          animLoop2();
+        });
+        $( ".anim2" ).animate({
+          color: "#0e2c2e"
+        }, 1500 );
+      }
+      animLoop2();
+  
+    } );
+  }
   render() {
     return (
       <div style={styles} className="">
