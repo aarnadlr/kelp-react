@@ -59,6 +59,18 @@ class App extends Component {
           <div className="anim1 seg"><AnimationCount {...settings8}/></div>
           <div className="seg"><AnimationCount {...settings}/></div>
 
+          <div className="      seg"><AnimationCount {...settings5}/></div>
+          <div className="anim1 seg"><AnimationCount {...settings}/></div>
+          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
+          <div className="      seg"><AnimationCount {...settings3}/></div>
+          <div className="      seg"><AnimationCount {...settings6}/></div>
+
+           <div className="seg"><AnimationCount {...settings0}/></div>
+          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
+          <div className="seg"><AnimationCount {...settings4}/></div>
+          <div className="anim1 seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><AnimationCount {...settings}/></div>
+
           <div className="seg"><AnimationCount {...settings7}/></div>
         </div>
 
