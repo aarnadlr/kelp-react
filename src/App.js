@@ -5,8 +5,9 @@ import {settings, settings0, settings1, settings2, settings3, settings4, setting
 import styles from './styles';
 // import $ from 'jquery';
 // import 'jquery-ui';
-import '../node_modules/jquery-ui/ui/effect'
-
+// import '../node_modules/jquery-ui/ui/effect'
+import {TickerEl1, TickerEl2, TickerEl3, TickerEl4, TickerEl5, TickerEl6} from './Components/TickerEl'
+// import TickerEl2 from './Components/TickerEl'
 class App extends Component {
 
   // componentDidMount(){
@@ -68,485 +69,488 @@ class App extends Component {
             </div> */}
         </div>
 
-       <div className="strand first">
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="      seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="      seg"><AnimationCount {...settings4}/></div>
-          <div className="      seg"><AnimationCount {...settings8}/></div>
+       <div className="creature first">
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
 
-          <div className="      seg"><AnimationCount {...settings5}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          <div className="      seg"><AnimationCount {...settings3}/></div>
-          <div className="      seg"><AnimationCount {...settings6}/></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
 
-          <div className="      seg"><AnimationCount {...settings1}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-          <div className="      seg"><AnimationCount {...settings2}/></div>
-          <div className="      seg"><AnimationCount {...settings4}/></div>
-          {/* <div className="anim2 seg"><AnimationCount {...settings8}/></div> */}
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          {/* <div className="anim2 seg"><TickerEl /></div> */}
 
-          <div className="      seg"><AnimationCount {...settings5}/></div>
-          <div className="      seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          <div className="      seg"><AnimationCount {...settings3}/></div>
-          <div className="      seg"><AnimationCount {...settings6}/></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings8}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="      seg"><AnimationCount {...settings5}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          <div className="      seg"><AnimationCount {...settings3}/></div>
-          <div className="      seg"><AnimationCount {...settings6}/></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
+          <div className="      seg"><TickerEl1 /></div>
 
-           <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings8}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings7}/></div>
+          <div className="seg"><TickerEl2 /></div>
+          <div className="anim1 seg"><TickerEl3 /></div>
+           <div className="seg"><TickerEl4 /></div>
+          <div className="anim1 seg"><TickerEl5 /></div>
+          <div className="seg"><TickerEl6 /></div>
         </div>
 
-        <div className="strand second">
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings8}/></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
 
-          <div className="anim2 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+        <div className="creature second">
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings3}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          {/* <div className="seg"><AnimationCount {...settings3}/></div> */}
-          {/* <div className="seg"><AnimationCount {...settings6}/></div> */}
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          {/* <div className="seg"><TickerEl1 /></div> */}
+          {/* <div className="seg"><TickerEl1 /></div> */}
         </div>
 
-        <div className="strand third">
+        <div className="creature third">
 
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings8}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
           
-          <div className="seg"><AnimationCount {...settings5}/></div>
+          <div className="seg"><TickerEl1 /></div>
         </div>
 
-        <div className="strand fourth">
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings2}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+        <div className="creature fourth">
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim2 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings6}/></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim2 seg"><AnimationCount {...settings1}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          {/* <div className="seg"><AnimationCount {...settings3}/></div> */}
-          {/* <div className="seg"><AnimationCount {...settings6}/></div> */}
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          {/* <div className="seg"><TickerEl1 /></div> */}
+          {/* <div className="seg"><TickerEl1 /></div> */}
         </div>
 
-        <div className="strand fifth">
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+        <div className="creature fifth">
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings4}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings8}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
         </div>
 
-        <div className="strand sixth">
-          <div className="anim1 seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
+        <div className="creature sixth">
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings8}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings6}/></div>
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim2 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings3}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings6}/></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          {/* <div className="seg"><AnimationCount {...settings8}/></div> */}
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          {/* <div className="seg"><TickerEl1 /></div> */}
         </div>
 
-        <div className="strand seventh">
-          <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+        <div className="creature seventh">
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-           <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings6}/></div>
+           <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings7}/></div>
-          {/* <div className="seg"><AnimationCount {...settings3}/></div> */}
-          {/* <div className="seg"><AnimationCount {...settings6}/></div> */}
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          {/* <div className="seg"><TickerEl1 /></div> */}
+          {/* <div className="seg"><TickerEl1 /></div> */}
         </div>
 
-        <div className="strand eighth">
-          <div className="anim1 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings2}/></div>
+        <div className="creature eighth">
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings4}/></div>
-          <div className="seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="seg"><AnimationCount {...settings4}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="seg"><AnimationCount {...settings}/></div>
-          <div className="seg"><AnimationCount {...settings7}/></div>
-          <div className="seg"><AnimationCount {...settings3}/></div>
-          <div className="seg"><AnimationCount {...settings6}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings1}/></div>
-          <div className="seg"><AnimationCount {...settings0}/></div>
-          <div className="seg"><AnimationCount {...settings2}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings4}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings8}/></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
 
-          <div className="seg"><AnimationCount {...settings5}/></div>
-          <div className="anim1 seg"><AnimationCount {...settings}/></div>
-          <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-          {/* <div className="seg"><AnimationCount {...settings3}/></div> */}
-          {/* <div className="seg"><AnimationCount {...settings6}/></div> */}
+          <div className="seg"><TickerEl1 /></div>
+          <div className="anim1 seg"><TickerEl1 /></div>
+          <div className="anim2 seg"><TickerEl1 /></div>
+          {/* <div className="seg"><TickerEl1 /></div> */}
+          {/* <div className="seg"><TickerEl1 /></div> */}
         </div>
 
 
 
-<div className="strand ninth">
+<div className="creature ninth">
 
-  <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-  <div className="seg"><AnimationCount {...settings4}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings8}/></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
 
-  <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-  <div className="seg"><AnimationCount {...settings}/></div>
-  <div className="seg"><AnimationCount {...settings7}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-  <div className="seg"><AnimationCount {...settings6}/></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-  <div className="seg"><AnimationCount {...settings0}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings1}/></div>
-  <div className="seg"><AnimationCount {...settings0}/></div>
-  <div className="seg"><AnimationCount {...settings2}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings4}/></div>
-  <div className="seg"><AnimationCount {...settings8}/></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-  <div className="seg"><AnimationCount {...settings}/></div>
-  <div className="seg"><AnimationCount {...settings7}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-  <div className="seg"><AnimationCount {...settings6}/></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings1}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-  <div className="seg"><AnimationCount {...settings2}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings4}/></div>
-  <div className="seg"><AnimationCount {...settings8}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings5}/></div>
-  <div className="seg"><AnimationCount {...settings}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings7}/></div>
-  <div className="seg"><AnimationCount {...settings3}/></div>
-  <div className="seg"><AnimationCount {...settings6}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings1}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings0}/></div>
-  <div className="seg"><AnimationCount {...settings2}/></div>
-  <div className="seg"><AnimationCount {...settings4}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings8}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings5}/></div>
-  <div className="seg"><AnimationCount {...settings}/></div>
-  <div className="seg"><AnimationCount {...settings7}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings3}/></div>
-  <div className="seg"><AnimationCount {...settings6}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings5}/></div>
+  <div className="seg"><TickerEl1 /></div>
 </div>
 
-<div className="strand tenth">
-  <div className="anim1 seg"><AnimationCount {...settings1}/></div>
-  <div className="seg"><AnimationCount {...settings0}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings2}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings4}/></div>
-  <div className="seg"><AnimationCount {...settings8}/></div>
+<div className="creature tenth">
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="anim2 seg"><AnimationCount {...settings5}/></div>
-  <div className="seg"><AnimationCount {...settings}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings7}/></div>
-  <div className="seg"><AnimationCount {...settings3}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings6}/></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings1}/></div>
-  <div className="seg"><AnimationCount {...settings0}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings2}/></div>
-  <div className="seg"><AnimationCount {...settings4}/></div>
-  <div className="seg"><AnimationCount {...settings8}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings5}/></div>
-  <div className="seg"><AnimationCount {...settings}/></div>
-  <div className="seg"><AnimationCount {...settings7}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-  <div className="seg"><AnimationCount {...settings6}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="anim2 seg"><AnimationCount {...settings1}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings0}/></div>
-  <div className="seg"><AnimationCount {...settings2}/></div>
-  <div className="seg"><AnimationCount {...settings4}/></div>
-  <div className="seg"><AnimationCount {...settings8}/></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="anim1 seg"><AnimationCount {...settings5}/></div>
-  <div className="seg"><AnimationCount {...settings}/></div>
-  <div className="seg"><AnimationCount {...settings7}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings3}/></div>
-  <div className="seg"><AnimationCount {...settings6}/></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings1}/></div>
-  <div className="seg"><AnimationCount {...settings0}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings2}/></div>
-  <div className="seg"><AnimationCount {...settings4}/></div>
-  <div className="anim2 seg"><AnimationCount {...settings8}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim2 seg"><TickerEl1 /></div>
 
-  <div className="seg"><AnimationCount {...settings5}/></div>
-  <div className="anim1 seg"><AnimationCount {...settings}/></div>
-  <div className="seg"><AnimationCount {...settings7}/></div>
+  <div className="seg"><TickerEl1 /></div>
+  <div className="anim1 seg"><TickerEl1 /></div>
+  <div className="seg"><TickerEl1 /></div>
 </div>
 
       </div>

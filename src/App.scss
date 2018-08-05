@@ -1,4 +1,5 @@
 // @import "../node_modules/tachyons-sass/tachyons.scss";
+
 // @import "../node_modules/tachyons-sass/scss/_debug.scss";
 // @import "../node_modules/tachyons-sass/scss/_debug-grid.scss";
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,600,700');
@@ -97,11 +98,12 @@ body,html{
 
 .seg {
     // COLOR OF KELP STRANDS:
-    color: #0e2c2e;
-    opacity: .6;
+    // color: #0e2c2e;
+    color: white;
+    opacity: 1;
     font-size:1.1rem;
-    height: 18px;
-    width: 60px;
+    // height: 18px;
+    width: 40px;
     transform-origin: bottom;
     animation: sway 3s infinite ease-in-out alternate;
     text-align: right;
@@ -127,20 +129,20 @@ body,html{
 
 .first{
  position: fixed;
- bottom: 0px;
+ bottom: 10px;
  left:20px;
 }
 
 .second{
   position: fixed;
   left:160px;
-  bottom: 0px;
+  bottom: 10px;
 }
 
 .third{
     position: fixed;
     left:300px;
-    bottom: 0px;
+    bottom: 10px;
 }
 
 .fourth{
